@@ -1,3 +1,22 @@
+---
+jupyter:
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+  language_info:
+    codemirror_mode:
+      name: ipython
+      version: 3
+    file_extension: .py
+    mimetype: text/x-python
+    name: python
+    nbconvert_exporter: python
+    pygments_lexer: ipython3
+    version: 3.11.5
+  nbformat: 4
+  nbformat_minor: 5
+---
 
 <div class="cell markdown">
 
@@ -17,7 +36,7 @@
     -   [CancelBooking](#cancelbooking)
     -   [CancelOrder](#cancelorder)
     -   [AddBooking](#addbooking)
-    -   [GetMaxQuantity](#getmax)
+    -   [GetMaxQuantity](#getmaxquantity)
 -   [Data Analysis with Tableau](#data-analysis-with-tableau)
     -   [Customer Sales](#customer-sales)
     -   [Profit Chart](#profit-chart)
@@ -370,7 +389,7 @@ CALL AddBooking("2024-02-02 12:30:00", 3, 6, 2)
 
 <div class="cell markdown">
 
-### GetMaxQuanity
+### GetMaxQuantity
 
 </div>
 
