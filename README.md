@@ -78,9 +78,9 @@ The database maintains the following information about the business:
 -   Customer details
 -   Staff information
 
-The entity-relationship (ER)
-[diagram](../db-capstone-project/images/diagram.png) below displays the
-relationships between these entities. ![Diagram](./images/diagram.png)
+The entity-relationship (ER) [diagram](./images/diagram.png) below
+displays the relationships between these entities.
+![Diagram](./images/diagram.png)
 
 </div>
 
