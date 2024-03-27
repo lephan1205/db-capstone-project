@@ -22,16 +22,14 @@ jupyter:
 
 # Little Lemon Restaurant Database
 
-<hr/>
-
 </div>
 
 <div class="cell markdown">
 
--   [Project Description](#description)
--   [Entity-Relationship Diagram](#erp)
--   [Installation and Setup](#setup)
--   [Stored Procedures](#procedures)
+-   [Project Description](#project-description)
+-   [Entity-Relationship Diagram](#entity-relationship-diagram)
+-   [Installation and Setup](#installation-and-setup)
+-   [Stored Procedures](#stored-procedures)
     -   [AddValidBooking](#addvalidbooking)
     -   [CheckBooking](#checkbooking)
     -   [UpdateBooking](#updatebooking)
@@ -39,22 +37,18 @@ jupyter:
     -   [CancelOrder](#cancelorder)
     -   [AddBooking](#addbooking)
     -   [GetMaxQuantity](#getmax)
--   [Data Analysis with Tableau](#tableau)
-    -   [Customer Sales](#customersales)
-    -   [Profit Chart](#profitchart)
-    -   [Sales Bubble Chart](#salesbubble)
-    -   [Cuisine Sales and Profit](#cuisinesales)
-    -   [Customer Sales Dashboard](#salesdashboard)
+-   [Data Analysis with Tableau](#data-analysis-with-tableau)
+    -   [Customer Sales](#customer-sales)
+    -   [Profit Chart](#profit-chart)
+    -   [Sales Bubble Chart](#sales-bubble-chart)
+    -   [Cuisine Sales and Profits](#cuisine-sales-and-profits)
+    -   [Dashboard](#dashboard)
 
 </div>
 
 <div class="cell markdown">
 
-<a id="description"></a>
-
 ## Project Description
-
-<hr/>
 
 </div>
 
@@ -69,11 +63,7 @@ Tableau is used for data analytics and visualization.
 
 <div class="cell markdown">
 
-<a id="erp"></a>
-
 ## Entity-Relationship Diagram
-
-<hr/>
 
 </div>
 
@@ -97,11 +87,7 @@ relationships between these entities. <p>
 
 <div class="cell markdown">
 
-<a id="setup"></a>
-
 ## Installation and Setup
-
-<hr/>
 
 </div>
 
@@ -131,17 +117,11 @@ The database is now set up with tables and stored procedures populated.
 
 <div class="cell markdown">
 
-<a id="procedures"></a>
-
 ## Stored Procedures
-
-<hr/>
 
 </div>
 
 <div class="cell markdown">
-
-<a id="addvalidbooking"></a>
 
 ### AddValidBooking
 
@@ -198,8 +178,6 @@ CALL AddValidBooking("2024-02-02 12:30:00", 3, 6, 2);
 
 <div class="cell markdown">
 
-<a id="checkbooking"></a>
-
 ### CheckBooking
 
 </div>
@@ -249,8 +227,6 @@ CALL CheckBooking("2024-02-01 12:00:00", 5);
 
 <div class="cell markdown">
 
-<a id="updatebooking"></a>
-
 ### UpdateBooking
 
 </div>
@@ -290,8 +266,6 @@ CALL UpdateBooking(9, "2024-02-01 12:30:00")
 
 <div class="cell markdown">
 
-<a id="cancelbooking"></a>
-
 ### CancelBooking
 
 </div>
@@ -329,8 +303,6 @@ CALL CancelBooking(9)
 </div>
 
 <div class="cell markdown">
-
-<a id="cancelorder"></a>
 
 ### CancelOrder
 
@@ -373,8 +345,6 @@ CALL CancelOrder(5)
 </div>
 
 <div class="cell markdown">
-
-<a id="addbooking"></a>
 
 ### AddBooking
 
@@ -420,8 +390,6 @@ CALL AddBooking("2024-02-02 12:30:00", 3, 6, 2)
 
 <div class="cell markdown">
 
-<a id="getmax"></a>
-
 ### GetMaxQuanity
 
 </div>
@@ -458,11 +426,7 @@ CALL GetMaxQuantity()
 
 <div class="cell markdown">
 
-<a id="tableau"></a>
-
 ## Data Analysis with Tableau
-
-<hr/>
 
 </div>
 
@@ -484,21 +448,18 @@ analyses:
 
 <div class="cell markdown">
 
-<a id="customersales"></a>
-
 ### Customer Sales
 
 </div>
 
 <div class="cell markdown">
 
-![images](../db-capstone-project/images/little-lemon-customer-sales.png)
+![Customer
+Sales](../db-capstone-project/images/little-lemon-customer-sales.png)
 
 </div>
 
 <div class="cell markdown">
-
-<a id="profitchart"></a>
 
 ### Profit Chart
 
@@ -506,13 +467,12 @@ analyses:
 
 <div class="cell markdown">
 
-![images](../db-capstone-project/images/little-lemon-profit-chart.png)
+![Profit
+Chart](../db-capstone-project/images/little-lemon-profit-chart.png)
 
 </div>
 
 <div class="cell markdown">
-
-<a id="salesbubble"></a>
 
 ### Sales Bubble Chart
 
@@ -520,35 +480,33 @@ analyses:
 
 <div class="cell markdown">
 
-![images](../db-capstone-project/images/little-lemon-sales-bubble-chart.png)
+![Sales Bubble
+Chart](../db-capstone-project/images/little-lemon-sales-bubble-chart.png)
 
 </div>
 
 <div class="cell markdown">
 
-<a id="cuisinesales"></a>
-
-### Cuisine Sales and Profit
+### Cuisine Sales and Profits
 
 </div>
 
 <div class="cell markdown">
 
-![images](../db-capstone-project/images/little-lemon-cuisine-sales-and-profit-chart.png)
+![Cuisine Sales and
+Profits](../db-capstone-project/images/little-lemon-cuisine-sales-and-profit-chart.png)
 
 </div>
 
 <div class="cell markdown">
 
-<a id="salesdashboard" > </a>
-
-### Customer Sales Dashboard
+### Dashboard
 
 </div>
 
 <div class="cell markdown">
 
-![images](../db-capstone-project/images/little-lemon-interactive-dashboard.png)
+![Dashboard](../db-capstone-project/images/little-lemon-interactive-dashboard.png)
 
 </div>
 
