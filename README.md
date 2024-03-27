@@ -80,8 +80,7 @@ The database maintains the following information about the business:
 
 The entity-relationship (ER)
 [diagram](../db-capstone-project/images/diagram.png) below displays the
-relationships between these entities. <p>
-<center><img src="../db-capstone-project/images/diagram.png"> </p>
+relationships between these entities. ![Diagram](./images/diagram.png)
 
 </div>
 
@@ -454,8 +453,7 @@ analyses:
 
 <div class="cell markdown">
 
-![Customer
-Sales](../db-capstone-project/images/little-lemon-customer-sales.png)
+![Customer Sales](./images/little-lemon-customer-sales.png)
 
 </div>
 
@@ -467,8 +465,7 @@ Sales](../db-capstone-project/images/little-lemon-customer-sales.png)
 
 <div class="cell markdown">
 
-![Profit
-Chart](../db-capstone-project/images/little-lemon-profit-chart.png)
+![Profit Chart](./images/little-lemon-profit-chart.png)
 
 </div>
 
@@ -480,8 +477,7 @@ Chart](../db-capstone-project/images/little-lemon-profit-chart.png)
 
 <div class="cell markdown">
 
-![Sales Bubble
-Chart](../db-capstone-project/images/little-lemon-sales-bubble-chart.png)
+![Sales Bubble Chart](./images/little-lemon-sales-bubble-chart.png)
 
 </div>
 
@@ -494,7 +490,7 @@ Chart](../db-capstone-project/images/little-lemon-sales-bubble-chart.png)
 <div class="cell markdown">
 
 ![Cuisine Sales and
-Profits](../db-capstone-project/images/little-lemon-cuisine-sales-and-profit-chart.png)
+Profits](./images/little-lemon-cuisine-sales-and-profit-chart.png)
 
 </div>
 
@@ -506,7 +502,7 @@ Profits](../db-capstone-project/images/little-lemon-cuisine-sales-and-profit-cha
 
 <div class="cell markdown">
 
-![Dashboard](../db-capstone-project/images/little-lemon-interactive-dashboard.png)
+![Dashboard](./images/little-lemon-interactive-dashboard.png)
 
 </div>
 
